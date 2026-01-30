@@ -1,0 +1,37 @@
+
+# Ignore video files
+*.mp4
+*.avi
+*.mov
+
+# Ignore images
+*.jpg
+*.jpeg
+*.png
+
+# Ignore videos content (keep folders)
+videos/*
+!videos/.gitkeep
+
+videos/devices/*
+!videos/devices/.gitkeep
+
+videos/serial_number/*
+!videos/serial_number/.gitkeep
+
+# Ignore frames content (keep folders)
+frames/*
+!frames/.gitkeep
+
+frames/devices_frames/*
+!frames/devices_frames/.gitkeep
+
+frames/serial_number_frames/*
+!frames/serial_number_frames/.gitkeep
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
