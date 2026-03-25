@@ -19,6 +19,9 @@ videos/devices/*
 videos/serial_number/*
 !videos/serial_number/.gitkeep
 
+videos/scan_code/*
+!videos/scan_code/.gitkeep
+
 # Ignore frames content (keep folders)
 frames/*
 !frames/.gitkeep
