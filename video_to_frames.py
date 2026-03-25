@@ -12,7 +12,7 @@ print("2. Devices")
 print("3. Materials")
 print("4. Scan Code")
 
-category_choice = input("\nPilih (1/2/3): ").strip()
+category_choice = input("\nPilih (1/2/3/4): ").strip()
 
 if category_choice == "1":
     VIDEOS_DIR = "videos/serial_number"
@@ -26,7 +26,7 @@ elif category_choice == "3":
     VIDEOS_DIR = "videos/materials"
     FRAMES_DIR = "frames/materials_frames"
     category_name = "MATERIALS"
-elif category_choice == "3":
+elif category_choice == "4":
     VIDEOS_DIR = "videos/scan_code"
     FRAMES_DIR = "frames/scan_code_frames"
     category_name = "SCAN CODE"
