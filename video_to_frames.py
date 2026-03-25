@@ -10,6 +10,7 @@ print("\nPILIH JENIS VIDEO:")
 print("1. Serial Number")
 print("2. Devices")
 print("3. Materials")
+print("4. Scan Code")
 
 category_choice = input("\nPilih (1/2/3): ").strip()
 
@@ -25,6 +26,10 @@ elif category_choice == "3":
     VIDEOS_DIR = "videos/materials"
     FRAMES_DIR = "frames/materials_frames"
     category_name = "MATERIALS"
+elif category_choice == "3":
+    VIDEOS_DIR = "videos/scan_code"
+    FRAMES_DIR = "frames/scan_code_frames"
+    category_name = "SCAN CODE"
 else:
     print("Pilihan tidak valid")
     exit()
