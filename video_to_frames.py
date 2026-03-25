@@ -9,8 +9,9 @@ FRAME_INTERVAL = 5  # ambil 1 frame tiap N frame
 print("\nPILIH JENIS VIDEO:")
 print("1. Serial Number")
 print("2. Devices")
+print("3. Materials")
 
-category_choice = input("\nPilih (1/2): ").strip()
+category_choice = input("\nPilih (1/2/3): ").strip()
 
 if category_choice == "1":
     VIDEOS_DIR = "videos/serial_number"
@@ -20,6 +21,10 @@ elif category_choice == "2":
     VIDEOS_DIR = "videos/devices"
     FRAMES_DIR = "frames/devices_frames"
     category_name = "DEVICES"
+elif category_choice == "3":
+    VIDEOS_DIR = "videos/materials"
+    FRAMES_DIR = "frames/materials_frames"
+    category_name = "MATERIALS"
 else:
     print("Pilihan tidak valid")
     exit()
